@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <circle cx="600" cy="315" r="240" fill="#ff3d00" opacity="0.18"/>
+  <circle cx="600" cy="315" r="160" fill="#ff3d00" opacity="0.06"/>
+  <text x="60" y="120" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" letter-spacing="3" fill="#6b6b6b">● BACK-TO-BACK DUO · MOSCOW · EST. 2002</text>
+  <text x="60" y="380" font-family="ui-sans-serif, system-ui, sans-serif" font-size="120" font-weight="500" fill="#fafafa" letter-spacing="-4">LAISO</text>
+  <text x="60" y="510" font-family="ui-sans-serif, system-ui, sans-serif" font-size="120" font-weight="500" fill="#fafafa" letter-spacing="-4">
+    <tspan fill="#ff3d00" font-style="italic">&amp;</tspan> NOSKINNEN
+  </text>
+  <text x="60" y="585" font-family="ui-monospace, SFMono-Regular, monospace" font-size="18" letter-spacing="3" fill="#6b6b6b">TWO SELECTORS · ANY TIME · ANY MUSIC</text>
+</svg>

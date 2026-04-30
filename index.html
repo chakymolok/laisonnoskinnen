@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0a0a0a" />
+
+    <title>Laiso & Noskinnen · DJ-дуэт · Москва · back-to-back · корпоративы и частные вечеринки</title>
+    <meta
+      name="description"
+      content="DJ-дуэт Laiso Buck и Andreas Noskinnen. Back-to-back сеты, своё оборудование (винил Technics, Pioneer CDJ-2000, звук, микрофоны). От корпоративов до клубных ночей. Москва, выезды по РФ и миру."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Laiso & Noskinnen · DJ-дуэт · Москва" />
+    <meta
+      property="og:description"
+      content="Two selectors. Any time. Any music. Back-to-back DJ duo из Москвы."
+    />
+    <meta property="og:image" content="/og.jpg" />
+    <meta property="og:url" content="https://laiso-noskinnen.com" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Laiso & Noskinnen · DJ-дуэт · Москва" />
+    <meta
+      name="twitter:description"
+      content="Two selectors. Any time. Any music. Back-to-back DJ duo из Москвы."
+    />
+    <meta name="twitter:image" content="/og.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href="https://laiso-noskinnen.com" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Geist:wght@300..700&family=Geist+Mono:wght@300..600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MusicGroup",
+        "name": "Laiso & Noskinnen",
+        "alternateName": "Laiso Buck & DJ Andreas Noskinnen",
+        "url": "https://laiso-noskinnen.com",
+        "genre": [
+          "Drum and Bass",
+          "UK Bass",
+          "Disco",
+          "Funk",
+          "Techno",
+          "Hip-Hop",
+          "Open Format"
+        ],
+        "member": [
+          {
+            "@type": "Person",
+            "name": "Laiso Buck",
+            "alternateName": "Михаил Проскурин",
+            "url": "https://proskurin.online/laiso-buck"
+          },
+          {
+            "@type": "Person",
+            "name": "DJ Andreas Noskinnen",
+            "url": "https://noskinnen.art"
+          }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Москва",
+          "addressCountry": "RU"
+        }
+      }
+    </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(106780441, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+      });
+    </script>
+    <!-- /Yandex.Metrika counter -->
+  </head>
+  <body>
+    <noscript>
+      <img
+        src="https://mc.yandex.ru/watch/106780441"
+        style="position: absolute; left: -9999px"
+        alt=""
+      />
+    </noscript>
+    <div class="noise" aria-hidden="true"></div>
+
+    <!-- Custom cursor -->
+    <div class="cursor-ring" aria-hidden="true">
+      <span class="cursor-label" data-cursor-label></span>
+    </div>
+    <div class="cursor-dot" aria-hidden="true"></div>
+
+    <!-- Sticky header (visible after scroll) -->
+    <header class="header" id="header" aria-label="Site header">
+      <div class="flex items-center gap-3">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span class="mono-md text-fg">LAISO &amp; NOSKINNEN</span>
+      </div>
+      <nav class="header-nav hidden md:flex items-center gap-7" aria-label="Main">
+        <a href="#duo">duo</a>
+        <a href="#mixes">mixes</a>
+        <a href="#gear">gear</a>
+        <a href="#formats">formats</a>
+        <a href="#booking">booking</a>
+      </nav>
+      <div class="text-right mono">
+        <span>MSK / UTC+3 ·</span>
+        <span data-msk-clock>00:00:00</span>
+      </div>
+    </header>
+
+    <main id="app"></main>
+
+    <div class="page-progress" aria-hidden="true">
+      <div class="page-progress-fill" data-progress></div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

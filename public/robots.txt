@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://laiso-noskinnen.com/sitemap.xml
